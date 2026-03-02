@@ -14,7 +14,6 @@ body {
     position: relative;
 }
 
-/* Overlay escuro */
 body::before {
     content: "";
     position: absolute;
@@ -132,7 +131,6 @@ body::before {
     text-decoration: underline;
 }
 
-/* Responsivo */
 @media (max-width: 420px) {
     .login-container {
         width: 90%;
